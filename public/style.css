@@ -1,0 +1,139 @@
+html{
+    height: 100%;
+}
+
+/* Оформление фона */
+body{
+    height: 76%;
+    background-color: #333333;
+    background-image: url(images/background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*Оформление страницы*/
+#page{ 
+    height: 100%;
+    width: 65%;
+    margin: auto;
+}
+    .textarea{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .input{
+        width: 30%;
+        font-size: 16px;
+    }
+    .center{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .right{
+        margin: 0;
+        margin-top: 20px;
+        color: white;
+        text-align: right;
+    }
+    .left{
+        margin: 0;
+        margin-top: 13px;
+        color: #8bcdef;
+        font-size: 22px;
+        text-align: left;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+#buttons{
+    height: 10px;
+    margin-top: calc(100px);
+    text-align: center;
+    white-space: nowrap;
+}
+    .but{
+        display: inline-block;
+    }
+    .a{
+        background: white;
+    }
+
+/*Горизонтальное меню*/
+#head{
+    white-space: nowrap;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+    .li{
+        height:49px;
+        margin: 0px;
+        margin-top: 8px;
+        display: inline-block;
+        list-style-type: none;
+    }
+    .li a{
+        height:49px;
+        padding: 0 76px;
+        display: block;
+        line-height: 49px;
+    }
+    .li a:hover{
+        background: black;
+        color: white;
+    }
+    .li a.not{
+        background: #454545;
+        pointer-events: none;
+    }
+    .li a.not:hover{
+        color: white;
+    }
+
+/*Оформление окон с текстами*/
+#window{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 16px;
+    color: wheat; 
+    text-align: justify;
+}
+    /*обрезка*/
+    .little{
+        margin-bottom: 20px;
+        border-bottom: 2px solid white; 
+        font-size: 16px;
+    }
+    /*Заголовки - не ссылки*/
+    .title{
+        margin: 0;
+        margin-bottom: 25px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /*Для полного текста новости*/
+    .text{
+        margin: 0;
+        font-size: 18px;        
+    }
+
+/*Заголовки - ссылки*/
+a:link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: aqua; 
+}
+a:active {
+  color: aqua;
+}
